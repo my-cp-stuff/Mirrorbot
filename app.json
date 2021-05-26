@@ -1,0 +1,77 @@
+{
+  "name": "Telegram Mirror X bot",
+  "description": "A Telegram Mirror x Bot",
+  "keywords": [
+    "telegram"
+  ],
+  "repository": "https://github.com/my-cp-stuff/Mirrorbot",
+  "success_url": "https://t.me/joinchat/Vdnr9bjjNnNlWIyw",
+  "website": "none For now",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "TELEGRAM_API": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "TELEGRAM_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "should be an integer. ID of owner of bot",
+      "value": ""
+    },
+    "GDRIVE_FOLDER_ID": {
+       "description": "get folder id from gdrive",
+       "values": ""
+    },
+    "INDEX_URL": {
+      "description": "Enter your index link",
+      "values": ""
+    },
+    "DOWNLOAD_DIR": {
+       "description": "do not play with this",
+       "values": "/home/username/mirror-bot/downloads"
+    },
+    "AUTO_DELETE_MESSAGE_DURATION": {
+       "description": "if you dont know then leave it",
+       "values": "20"
+    },
+    "AUTHORIZED_CHATS": {
+    "description": "chat bootlog id Separated by space",
+    "values": ""
+    },
+    "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
+    "description": "just skip this part",
+    "values": "5"
+    },
+    "IS_TEAM_DRIVE": {
+    "description": "set it to True if you have team drive",
+    "values": ""
+    },
+    "MEGA_API_KEY": {
+    "description": "Get this from https://mega.nz/sdk",
+    "values": ""
+    },
+    "MEGA_EMAIL_ID": {
+    "description": "your mega email",
+    "values": ""
+    },
+    "MEGA_PASSWORD": {
+    "description": "your mega account password",
+    "values": ""
+    },
+    "STOP_DUPLICATE_MIRROR": {
+    "description": "set it to True if you want to block duplicate mirors",
+    "values": ""
+        }
+  },
+  "stack": "container"
+}
