@@ -24,7 +24,10 @@ For The Most Recent Changes, Please Check The Changelog.👇
 
 ## 👉[Changelog](https://github.com/iamLiquidX/MirrorX/wiki/Changelog)
 
+## Deploy Here!
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/my-cp-stuff/Mirrorbot)
 
+### The Legacy Way
 
 # Credits 👇
 
